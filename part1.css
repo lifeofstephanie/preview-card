@@ -1,0 +1,47 @@
+body {
+  background-color: hsl(30, 38%, 92%);
+  width: 1440px;
+  height: 100%;
+}
+#square {
+  width: 500px;
+  height: 400px;
+  margin: 200px;
+  margin-left: 500px;
+  border: 1px black solid;
+  border-radius: 7px;
+  display: flex;
+  background-color: white;
+}
+.sectionOne {
+  margin-left: 20px;
+  margin-right: 20px;
+}
+h4 {
+  font-weight: normal;
+}
+
+.prices {
+  display: flex;
+  gap: 40px;
+}
+.original {
+  color: green;
+  text-decoration: none;
+  font-size: 19px;
+}
+h5 {
+  text-decoration: line-through;
+}
+#rect {
+  background-color: green;
+  color: white;
+  width: 150px;
+  height: 30px;
+  border-radius: 7px;
+  text-align: center;
+}
+#rect:hover {
+  cursor: pointer;
+  font-weight: bold;
+}
