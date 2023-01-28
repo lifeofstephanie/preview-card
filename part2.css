@@ -1,0 +1,51 @@
+body {
+  width: 375px;
+  height: 100%;
+  background-color: hsl(30, 38%, 92%);
+}
+#square {
+  width: 300px;
+  height: 580px;
+  background-color: white;
+  border-radius: 7px;
+  display: flexbox;
+  margin-left: 30px;
+}
+.sectionOne {
+  margin-left: 20px;
+  margin-right: 20px;
+}
+h4 {
+  font-weight: normal;
+}
+
+.prices {
+  display: flex;
+  gap: 40px;
+}
+.original {
+  color: green;
+  text-decoration: none;
+  font-size: 19px;
+}
+h5 {
+  text-decoration: line-through;
+}
+#rect {
+  background-color: green;
+  color: white;
+  width: 230px;
+  height: 25px;
+  border-radius: 7px;
+  text-align: center;
+  padding-top: 0.05px;
+  padding-bottom: 16px;
+}
+#rect:hover {
+  cursor: pointer;
+  font-weight: bold;
+  background-color: darkgreen;
+}
+p {
+  font-size: 14px;
+}
